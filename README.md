@@ -27,12 +27,7 @@ The pipeline consists of two independent deep learning models:
 
 The EndoNet workflow is structured as follows:
 
-Input Laparoscopic Image
-↓
-YOLO Detection (Lesion Localization)
-↓
-Mask R-CNN Segmentation (Lesion Boundary Extraction)
-↓
+Input Laparoscopic Image-> YOLO Detection (Lesion Localization) -> Mask R-CNN Segmentation (Lesion Boundary Extraction)->
 Visualization via Web Interface
 
 The detection and segmentation models are trained separately and evaluated individually to analyze performance on laparoscopic datasets.
