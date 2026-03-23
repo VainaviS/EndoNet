@@ -68,13 +68,22 @@ EndoNet/
 │   ├── app.py
 │   └── requirements.txt
 │
-├── models
-│   └── download_models.md
+├── sample_images
+│   ├── img1
+|   └── img2
+│   └── img3
+|
+|
+├── image outputs
+│   ├── Image_outputs_maskRCNN(images from the Mask-RCNN model)
+│   └── Image_outputs_yolo(images from the yolo model)
 │
 └── README.md
 
 ---
-
+Models link- 
+Yolo- https://drive.google.com/file/d/1cudHJCf45DAL7_A3BvDqP0maFZG8puwk/view?usp=sharing
+MaskRCNN- https://drive.google.com/file/d/1yUea6N8ufVyUSnZKRBwvPTVTQ3krlO_f/view?usp=sharing 
 ## Installation
 
 Clone the repository:
