@@ -83,12 +83,13 @@ EndoNet/
 ---
 Models link- 
 Yolo- https://drive.google.com/file/d/1cudHJCf45DAL7_A3BvDqP0maFZG8puwk/view?usp=sharing
+
 MaskRCNN- https://drive.google.com/file/d/1yUea6N8ufVyUSnZKRBwvPTVTQ3krlO_f/view?usp=sharing 
 ## Installation
 
 Clone the repository:
 
-git clone https://github.com/yourusername/EndoNet.git
+git clone https://github.com/VainaviS/EndoNet.git
 cd EndoNet
 
 Install dependencies:
@@ -116,11 +117,11 @@ Training notebooks are provided in the `notebooks` directory.
 
 YOLO Detection Model:
 
-notebooks/yolo_training.ipynb
+notebooks/yolov8v2.ipynb
 
 Mask R-CNN Segmentation Model:
 
-notebooks/mask_rcnn_training.ipynb
+notebooks/MaskRcNNv2.ipynb
 
 These notebooks contain the complete training pipeline including dataset preparation, model configuration, and evaluation.
 
